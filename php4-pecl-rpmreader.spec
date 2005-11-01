@@ -6,13 +6,12 @@
 Summary:	%{_modname} - RPM file meta information reader
 Summary(pl):	%{_modname} - odczyt metainformacji z plików RPM
 Name:		php4-pecl-%{_modname}
-Version:	0.2
+Version:	0.3
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	dee4fc562262dc9f0708d0b3e6e087e6
-Patch0:		%{name}-tsrmls.patch
+# Source0-md5:	73aca25e6f5b7b17dffe4dfb63110505
 URL:		http://pecl.php.net/package/rpmreader/
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.254
@@ -38,8 +37,6 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
-cd %{_modname}-%{version}
-%patch0 -p1
 
 %build
 cd %{_modname}-%{version}
