@@ -30,8 +30,8 @@ In PECL status of this extension is: %{_status}.
 %description -l pl
 rpmreader jest rozszerzeniem umo¿liwiaj±cym odczyt informacji z
 nag³ówków plików RPM (RPM Package Manager). Rozszerzenie to na chwilê
-obecn± nie udostêpnia mo¿liwo¶ci odczytu podpisu ani zawarto¶ci archwium
-pliku RPM.
+obecn± nie udostêpnia mo¿liwo¶ci odczytu podpisu ani zawarto¶ci
+archiwum pliku RPM.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
