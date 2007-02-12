@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - RPM file meta information reader
-Summary(pl):	%{_modname} - odczyt metainformacji z plików RPM
+Summary(pl.UTF-8):   %{_modname} - odczyt metainformacji z plikÃ³w RPM
 Name:		php4-pecl-%{_modname}
 Version:	0.3
 Release:	1
@@ -27,10 +27,10 @@ or archive sections of the RPM file.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-rpmreader jest rozszerzeniem umo¿liwiaj±cym odczyt informacji z
-nag³ówków plików RPM (RPM Package Manager). Rozszerzenie to na chwilê
-obecn± nie udostêpnia mo¿liwo¶ci odczytu podpisu ani zawarto¶ci
+%description -l pl.UTF-8
+rpmreader jest rozszerzeniem umoÅ¼liwiajÄ…cym odczyt informacji z
+nagÅ‚Ã³wkÃ³w plikÃ³w RPM (RPM Package Manager). Rozszerzenie to na chwilÄ™
+obecnÄ… nie udostÄ™pnia moÅ¼liwoÅ›ci odczytu podpisu ani zawartoÅ›ci
 archiwum pliku RPM.
 
 To rozszerzenie ma w PECL status: %{_status}.
