@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - RPM file meta information reader
-Summary(pl.UTF-8):   %{_modname} - odczyt metainformacji z plików RPM
+Summary(pl.UTF-8):	%{_modname} - odczyt metainformacji z plików RPM
 Name:		php4-pecl-%{_modname}
 Version:	0.3
 Release:	1
